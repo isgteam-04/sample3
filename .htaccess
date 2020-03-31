@@ -1,0 +1,6 @@
+Options +FollowSymLinks -MultiViews
+# Turn mod_rewrite on
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^project/([0-9]+)/?$ /index.php?vp=$1 [L,QSA,NC]

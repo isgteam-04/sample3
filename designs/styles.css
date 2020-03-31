@@ -1,0 +1,276 @@
+html {
+  color: #333333;
+}
+
+/*header {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('http://localhost/cbig_centralDb/photos/design/header_wcbiglogo.png');
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 7.2%;
+}*/
+
+p {
+	font-family: "Century Gothic", Georgia, Serif;
+	//font-family: Metro, fantasy;
+}
+
+body {
+	background-color: #999999;
+	//background-image: url('http://localhost/cbig_centralDb/photos/design/cbig-logo.jpg');
+	padding-top: 10px;
+}
+
+.header-img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 77px;
+	//background-image: url('http://localhost/cbig_centralDb/photos/design/header_wcbiglogo.png'); 
+}
+
+div p2 {
+	font-family: "Metro";
+	font-size: 250%;
+	padding-top: 50%;
+	color: #8a6d3b;
+}
+
+
+.container {
+	//width: 960px;
+	margin-top: 0px;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: white;
+	border-color: #333333;
+	box-shadow: 5px 3px 3px #888888;
+}
+
+#logo {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 7.2%;
+}
+
+.clear {
+	clear: both;
+}
+
+#mainBody {
+	background-color: white;
+}
+
+#welcomeDiv {
+	background-color: white;
+	float: left;
+	width: 68%;
+	margin-right: 20px;
+	padding: 25px;
+	margin-left: 10px;
+	box-shadow: 5px 3px 50px #888888;
+}
+
+#newsLetter {
+	background-color: white;
+	float: left;
+	padding: 10px;
+	width: 20%;
+	margin-bottom: 3px;
+	box-shadow: 5px 3px 50px #888888;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#Login {
+	background-color: white;
+	float: left;
+	padding: 10px;
+	width: 20%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 370px;
+	box-shadow: 5px 3px 20px #888888;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#Logout {
+	background-color: white;
+	float: left;
+	width: 40%;
+	height: 200px;
+	padding: 10px;
+	margin: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	font-family: calibri;
+}
+
+#leftDiv {
+	background-color: #fcf8e3;
+	//background-color: white;
+	float: left;
+	height: auto;
+	width: 30%;
+	padding: 0px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	box-shadow: 1px 1px 1px 1px #888888;
+}
+
+#leftDiv img {
+	max-height: 70px;
+	max-width: 70px;
+	float: right;
+	padding-right: 55px;
+}
+
+#rightDiv {
+	background-color: white;
+	float: right;
+	width: 40%;
+	height: 250px;
+	padding: 10px;
+	margin: 20px;
+	box-shadow: 10px 10px 5px #888888;
+	font-family: vani;
+}
+
+#rightDiv img {
+	max-height: 100px;
+	max-width: 100px;
+	float: right;
+}
+
+.list_leftDiv {
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+}
+
+.list_leftDiv li {
+	min-width: 10em;
+	float: left;
+	margin-right: 1.5em;
+	text-align: left;
+}
+
+#welcomeSec {
+	background-color: white;
+	float: right;
+	width: 40%;
+	height: 50px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+	font-size: 85%;
+	//border: black 1px solid;
+}
+
+#ObjExplorer {
+	background-color: white;
+	float: left;
+	width: 17%;
+	height: auto;
+	margin-top: 80px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-size: 90%;
+	border: #8a6d3b 1px solid;
+	border-radius: 5px;
+}
+
+#ObjDetails {
+	background-color: white;
+	float: left;
+	width: 80%;
+	height: 800%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	text-align: left;
+	font-size: 85%;
+	//border: #8a6d3b 1px solid;
+}
+
+#hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+	color: #faebcc;
+}
+
+footer {
+	background-repeat: no-repeat;
+	background-size: cover;
+	//background-image: url('http://localhost/cbig_centralDb/photos/design/footer.png');
+	font-size: 70%;
+	text-align: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 0px;
+}
+
+.message {
+	color: #333;
+	border: #FF0000 1px solid;
+	background: #FFE7E7;
+	padding: 5px 20px;
+}
+
+.listheader {
+	color: #ba8501;
+	font-weight: bold;
+	border: #8a6d3b 1px solid;
+	border-bottom: 0;
+	background: #fcf8e3;
+	padding: 5px 20px;
+}
+
+table {
+	border-collapse: collapse;
+	border-top-left-radius: .3em;
+	border-top-right-radius: .3em;
+	overflow: hidden;
+}
+
+.tableheader {
+	background-color: #8a6d3b;
+	color:white;
+	font-weight:bold;
+}
+
+.tablerow {
+	background-color: white;
+	color: #8a6d3b;
+}
+
+.tablerow a:link,
+.tablerow a:visited {
+	background-color: none;
+	text-decoration: none;
+	//color: #ba8501;
+	color: #8a6d3b;
+}
+
+.tablerow a:hover {
+	background-color: ghostwhite;
+	color: #ba8501;
+	border-color: black;
+}
+
+.tablerow a {
+	display: grey;
+}
